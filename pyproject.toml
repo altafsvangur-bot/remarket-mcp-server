@@ -1,0 +1,24 @@
+[project]
+name = "remarket-mcp-server"
+version = "0.1.0"
+description = "ReMarket Agent-Commerce MCP Server – Secondhand-Marktplatz für KI-Agenten"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Simon / Marvin", email = "altafsvangur@gmail.com" }
+]
+keywords = ["mcp", "agent-commerce", "secondhand", "remarket", "buybuddy"]
+
+dependencies = [
+    "mcp>=1.0.0",
+    "psycopg2-binary>=2.9.0",
+    "pydantic>=2.0.0",
+]
+
+[project.scripts]
+remarket-mcp = "server:mcp.run"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"

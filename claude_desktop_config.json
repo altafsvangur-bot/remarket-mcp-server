@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "remarket": {
+      "command": "python3",
+      "args": ["/Users/marvingreen/Documents/Marvin-Cowork/remarket-mcp-server/server.py"],
+      "env": {
+        "REMARKET_DB_HOST": "localhost",
+        "REMARKET_DB_PORT": "5433",
+        "REMARKET_DB_NAME": "marvin_n8n",
+        "REMARKET_DB_USER": "marvin",
+        "REMARKET_DB_PASSWORD": "heart-of-gold-42"
+      }
+    }
+  }
+}
